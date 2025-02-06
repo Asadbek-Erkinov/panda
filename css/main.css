@@ -599,11 +599,13 @@ img {
   letter-spacing: 0;
   border-radius: 100px;
   border: 1px solid #19707D;
-  display: inline-block;
   margin-top: 52px;
   margin-inline: auto;
   padding-block: 8px 12px;
   padding-inline: 38px 22px;
+  text-align: center;
+  display: block;
+  width: 240px;
 }
 
 .zoo-link::before {
@@ -828,15 +830,16 @@ img {
   line-height: normal;
   letter-spacing: -0.7px;
   text-transform: uppercase;
-  display: inline-flex;
   width: 250px;
   height: 40px;
   padding: 11px 22px 11px 22px;
   justify-content: center;
-  align-items: center;
   flex-shrink: 0;
   margin-top: 49px;
   text-align: center;
+  display: block;
+  width: 240px;
+  margin-inline: auto;
 }
 
 .pay-linkk {
