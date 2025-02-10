@@ -34,7 +34,6 @@
 
 
 .testimonals__list {
-  overflow-x: auto;
   padding-top: 27px;
   list-style-type: none;
   margin-block: 0;
@@ -42,13 +41,13 @@
 }
 
 .testimonals__item {
-  max-width: 300px;
+  max-width: 500px;
   width: 100%;
 }
 
 .testimonals__item-wrap {
-  padding: 18px 12px 28px 14px;
   box-shadow:(0px 2px 30px rgba(0, 0, 0, 0.06));
+  padding: 18px 12px 28px 14px;
 }
 
 
@@ -106,6 +105,11 @@ font-style: italic;
 
     .testimonals__item-wrap {
       width: 190px;
+    }
+
+    .testimonals__item {
+      width: 100%;
+      max-width: 300px;
     }
     
   }
