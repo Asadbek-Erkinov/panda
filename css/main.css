@@ -234,7 +234,7 @@ img {
 .hero {
   background-color: #2A8086;
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .hero__inner {
@@ -1164,7 +1164,7 @@ img {
   display: inline-block;
   position: absolute;
   left: -6px;
-  bottom: 55px;
+  bottom: 70px;
 }
 
 .interesting__desc {
@@ -1175,6 +1175,44 @@ img {
   line-height: 20px; /* 166.667% */
 }
 
+.information {
+  padding-bottom: 300px;
+  background-image: url("../images/sitebgimg.svg");
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-repeat: no-repeat;
+  content: "";
+  background-position: center calc(100% + 50px);
+}
+
+@media only screen and (min-width: 380px) {
+  .panda-video {
+    width: 100%;
+    height: 250px;
+  }
+}
+@media only screen and (min-width: 450px) {
+  .panda-video {
+    width: 100%;
+    height: 250px;
+  }
+}
+@media only screen and (min-width: 450px) {
+  .panda-video {
+    height: 300px;
+  }
+}
+@media only screen and (min-width: 580px) {
+  .panda-video {
+    height: 350px;
+  }
+}
+@media only screen and (min-width: 570px) {
+  .information {
+    background-position: center calc(100% + 62px);
+  }
+}
 @media only screen and (min-width: 640px) {
   .zoos__btn {
     width: 34px;
@@ -1190,6 +1228,21 @@ img {
   }
   .cameras__img {
     width: 234px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .panda-video {
+    height: 350px;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .panda-video {
+    height: 400px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .panda-video {
+    height: 450px;
   }
 }
 @media only screen and (min-width: 800px) {
